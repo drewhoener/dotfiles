@@ -1,0 +1,12 @@
+#!/bin/sh
+
+#Kill all other instances of Polybar
+echo "Killing Bars"
+killall -q polybar
+while pgrep -x polybar >/dev/null; do sleep 1; done
+
+echo "Launching Bars"
+
+polybar -r main_bar
+
+echo "Bars Launched"
