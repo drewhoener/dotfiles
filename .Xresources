@@ -1,0 +1,82 @@
+#define _foreground       #ffffff
+#define _background       #2e3440
+#define _cursorColor      #ffffff
+
+!black
+#define _color0       #2e3440
+#define _color8       #707f9c
+
+! red
+#define _color1       #84d498
+#define _color9       #84d498
+
+! green
+#define _color2       #1cfa67
+#define _color10      #1cfa67
+
+! yellow
+#define _color3       #85fa8d
+#define _color11      #85fa86
+
+! blue
+#define _color4       #1aa662
+#define _color12      #1aa662
+
+! magenta
+#define _color5       #23ff77
+#define _color13      #23ff77
+
+! cyan
+#define _color6       #50fa7b
+#define _color14      #50fa7b
+
+! white
+#define _color7       #707f9c
+#define _color15      #ffffff
+
+
+! special
+*.foreground:   _foreground
+*.background:   _background
+*.cursorColor:  _cursorColor
+
+! black
+*.color0:       _color0
+*.color8:       _color8
+
+! red
+*.color1:       _color1
+*.color9:       _color9
+
+! green
+*.color2:       _color2
+*.color10:      _color10
+
+! yellow
+*.color3:       _color3
+*.color11:      _color11
+
+! blue
+*.color4:       _color4
+*.color12:      _color12
+
+! magenta
+*.color5:       _color5
+*.color13:      _color13
+
+! cyan
+*.color6:       _color6
+*.color14:      _color14
+
+! white
+*.color7:       _color7
+*.color15:      _color15
+
+!URxvt Settings
+URxvt.scrollBar: false
+URxvt.url-launcher: chromium
+
+URxvt.borderColor:   _color4
+URxvt.externalBorder:   0
+
+URxvt.font: xft:Liberation Mono:pixelsize=13
