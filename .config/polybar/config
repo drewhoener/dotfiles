@@ -14,8 +14,8 @@ background-alt = #444
 foreground = ${xrdb:color7:#222}
 ;foreground = #dfdfdf
 foreground-alt = #555
-primary = #ffb52a
-secondary = #e60053
+primary = ${xrdb:color4:#ffb52a}
+secondary = ${xrdb:color2:#e60053}
 alert = #bd2c40
 
 [bar/bottom_bar]
