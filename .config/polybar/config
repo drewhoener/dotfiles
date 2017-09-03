@@ -11,12 +11,13 @@
 background = ${xrdb:color0:#222}
 ;background = #222
 background-alt = #444
-foreground = ${xrdb:color7:#222}
+foreground = ${xrdb:color12:#222}
 ;foreground = #dfdfdf
 foreground-alt = #555
 primary = ${xrdb:color4:#ffb52a}
-secondary = ${xrdb:color2:#e60053}
+secondary = ${xrdb:color8:#e60053}
 alert = #bd2c40
+underline = ${xrdb:color2:#e60053}
 
 [bar/bottom_bar]
 inherit = bar/main_bar
@@ -54,7 +55,7 @@ font-3 = FontAwesome:pixelsize=10;1
 
 modules-left = bspwm
 modules-center =
-modules-right = filesystem volume xkeyboard memory cpu wlan eth battery temperature date pkg powermenu
+modules-right = xkeyboard volume memory cpu wlan eth battery date pkg powermenu
 
 tray-position = right
 tray-padding = 2
@@ -105,7 +106,7 @@ format = <label-state> <label-mode>
 
 label-focused = %name%
 label-focused-background = ${colors.background-alt}
-label-focused-underline= ${colors.primary}
+label-focused-underline= ${colors.secondary}
 label-focused-padding = 2
 
 label-occupied = %name%
@@ -193,7 +194,8 @@ type = internal/cpu
 interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #f90000
+format-underline = ${colors.secondary}
+;#f90000
 label = %percentage%%
 
 [module/memory]
@@ -201,7 +203,8 @@ type = internal/memory
 interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #4bffdc
+format-underline = ${colors.secondary}
+;#4bffdc
 label = %percentage_used%%
 
 [module/wlan]
@@ -210,7 +213,8 @@ interface = wlp3s0
 interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
-format-connected-underline = #9f78e1
+format-connected-underline = ${colors.secondary}
+;#9f78e1
 label-connected = %essid%
 
 format-disconnected =
@@ -231,7 +235,8 @@ type = internal/network
 interface = enp2s0f0
 interval = 3.0
 
-format-connected-underline = #55aa55
+format-connected-underline = ${colors.secondary}
+;#55aa55
 format-connected-prefix = " "
 format-connected-prefix-foreground = ${colors.foreground-alt}
 label-connected = %local_ip%
@@ -254,7 +259,8 @@ time-alt = "%l:%M:%S %p"
 
 format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #0a6cf5
+format-underline = ${colors.secondary}
+;#0a6cf5
 
 label = %date% %time%
 
@@ -269,19 +275,23 @@ headphone-soundcard = default
 format-volume = <label-volume> <bar-volume>
 label-volume = VOL
 label-volume-foreground = ${root.foreground}
+format-slider-foreground = ${xrdb:color8:#ff5555}
 
 format-muted-prefix = " "
 format-muted-foreground = ${colors.foreground-alt}
 label-muted = sound muted
 
 bar-volume-width = 10
-bar-volume-foreground-0 = #55aa55
-bar-volume-foreground-1 = #55aa55
-bar-volume-foreground-2 = #55aa55
-bar-volume-foreground-3 = #55aa55
-bar-volume-foreground-4 = #55aa55
-bar-volume-foreground-5 = #f5a70a
-bar-volume-foreground-6 = #ff5555
+;#55a55 through 4
+;#f5a70a
+;ff55555
+bar-volume-foreground-0 = ${self.format-slider-foreground}
+bar-volume-foreground-1 = ${self.format-slider-foreground}
+bar-volume-foreground-2 = ${self.format-slider-foreground}
+bar-volume-foreground-3 = ${self.format-slider-foreground}
+bar-volume-foreground-4 = ${self.format-slider-foreground}
+bar-volume-foreground-5 = ${self.format-slider-foreground}
+bar-volume-foreground-6 = ${self.format-slider-foreground}
 bar-volume-gradient = false
 bar-volume-indicator = |
 bar-volume-indicator-font = 2
@@ -298,7 +308,8 @@ adapter = ADP1
 full-at = 98
 
 format-charging = <animation-charging> <label-charging>
-format-charging-underline = #ffb52a
+format-charging-underline = ${colors.secondary}
+;#ffb52a
 
 format-discharging = <ramp-capacity> <label-discharging>
 format-discharging-underline = ${self.format-charging-underline}
@@ -324,7 +335,8 @@ thermal-zone = 0
 warn-temperature = 60
 
 format = <ramp> <label>
-format-underline = #f50a4d
+format-underline = ${colors.secondary}
+;#f50a4d
 format-warn = <ramp> <label-warn>
 format-warn-underline = ${self.format-underline}
 
@@ -349,26 +361,34 @@ label-close-foreground = ${colors.secondary}
 label-separator = |
 label-separator-foreground = ${colors.foreground-alt}
 
-menu-0-0 = reboot
+menu-0-0 = sleep
 menu-0-0-exec = menu-open-1
-menu-0-1 = power off
+menu-0-1 = reboot
 menu-0-1-exec = menu-open-2
+menu-0-2 = power off
+menu-0-2-exec = menu-open-3
 
 menu-1-0 = cancel
 menu-1-0-exec = menu-open-0
-menu-1-1 = reboot
-menu-1-1-exec = systemctl reboot
+menu-1-1 = sleep
+menu-1-1-exec = systemctl suspend
 
-menu-2-0 = power off
-menu-2-0-exec = systemctl poweroff
-menu-2-1 = cancel
-menu-2-1-exec = menu-open-0
+menu-2-0 = cancel
+menu-2-0-exec = menu-open-0
+menu-2-1 = reboot
+menu-2-1-exec = systemctl reboot
+
+menu-3-0 = power off
+menu-3-0-exec = systemctl poweroff
+menu-3-1 = cancel
+menu-3-1-exec = menu-open-0
 
 [module/pkg]
 type = custom/script
 interval = 1200
 format = <label>
-format-underline = #dc322f
+format-underline = ${colors.secondary}
+;#dc322f
 label = "%output:0:30%"
 exec = ~/.config/polybar/scripts/pkg.sh
 exec-if = "ping -q -w 2 -c 1 176.34.135.167 > /dev/null"
