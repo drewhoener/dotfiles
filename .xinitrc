@@ -33,8 +33,8 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-libinput-gestures-setup start
-libinput-gestures-setup autostart
+#libinput-gestures-setup start
+#libinput-gestures-setup autostart
 
 #Get rid of the pesky x cursor
 xsetroot -cursor_name left_ptr

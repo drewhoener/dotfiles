@@ -55,7 +55,7 @@ font-3 = FontAwesome:pixelsize=10;1
 
 modules-left = bspwm
 modules-center =
-modules-right = xkeyboard volume memory cpu wlan eth battery date pkg powermenu
+modules-right = xkeyboard volume memory cpu wlan eth date pkg powermenu
 
 tray-position = right
 tray-padding = 2
@@ -209,7 +209,7 @@ label = %percentage_used%%
 
 [module/wlan]
 type = internal/network
-interface = wlp3s0
+interface = wlp40s0
 interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
@@ -232,7 +232,7 @@ ramp-signal-foreground = ${colors.foreground-alt}
 
 [module/eth]
 type = internal/network
-interface = enp2s0f0
+interface = enp35s0
 interval = 3.0
 
 format-connected-underline = ${colors.secondary}
