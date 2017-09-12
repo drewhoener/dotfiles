@@ -161,3 +161,7 @@ XF86KbdBrightnessUp
 #Lower Keyboard Brightness
 XF86KbdBrightnessDown
 	sudo /usr/bin/lower_brightness
+
+#Lock Screen
+super + alt +ctrl + l
+	sflock
