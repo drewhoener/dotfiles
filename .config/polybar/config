@@ -13,7 +13,7 @@ background = ${xrdb:color0:#222}
 background-alt = #444
 foreground = ${xrdb:color12:#222}
 ;foreground = #dfdfdf
-foreground-alt = #555
+foreground-alt = ${xrdb:color1:#555}
 primary = ${xrdb:color4:#ffb52a}
 secondary = ${xrdb:color8:#e60053}
 alert = #bd2c40
@@ -42,7 +42,7 @@ line-color = #f00
 border-size = 0
 border-color = #00000000
 
-padding-left = 0
+padding-left = 2
 padding-right = 2
 
 module-margin-left = 1
@@ -53,9 +53,9 @@ font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = Wuncon Siji:pixelsize=10;1
 font-3 = FontAwesome:pixelsize=10;1
 
-modules-left = bspwm
-modules-center =
-modules-right = xkeyboard volume memory cpu wlan eth date pkg powermenu
+modules-left = powermenu wlan eth
+modules-center = bspwm
+modules-right = xkeyboard volume memory cpu date pkg
 
 tray-position = right
 tray-padding = 2
@@ -100,6 +100,22 @@ label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${colors.foreground-alt}
 
 [module/bspwm]
+type = internal/bspwm
+
+label-focused = 
+label-focused-background = ${colors.background-alt}
+label-focused-underline= ${colors.secondary}
+label-focused-padding = 2
+
+label-occupied = 
+label-occupied-padding = 2
+
+label-empty = 
+label-empty-padding = 2
+
+label-urgent-background = ${colors.alert}
+
+[module/bspwm_old]
 type = internal/bspwm
 
 format = <label-state> <label-mode>

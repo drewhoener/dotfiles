@@ -1,38 +1,38 @@
 #define _foreground       #ffffff
-#define _background       #38241e
+#define _background       #262626
 #define _cursorColor      #ffffff
 
 !black
-#define _color0       #38241e
-#define _color8       #ab5611
+#define _color0       #585858
+#define _color8       #ffd7d7
 
 ! red
-#define _color1       #3f383e
-#define _color9       #f0a017
+#define _color1       #5f8787
+#define _color9       #444444
 
 ! green
-#define _color2       #1c1f23
-#define _color10      #a9754f
+#define _color2       #5fafaf
+#define _color10      #d7af87
 
 ! yellow
-#define _color3       #0c2c3f
-#define _color11      #807d82
+#define _color3       #ff875f
+#define _color11      #ffd7af
 
 ! blue
-#define _color4       #0a4f6e
-#define _color12      #d5ae83
+#define _color4       #005f5f
+#define _color12      #87afaf
 
 ! magenta
-#define _color5       #485c6e
-#define _color13      #188eb3
+#define _color5       #af8787
+#define _color13      #565656
 
 ! cyan
-#define _color6       #6e3716
-#define _color14      #8caebc
+#define _color6       #afafaf
+#define _color14      #005f5f
 
 ! white
-#define _color7       #71554a
-#define _color15      #d9eae6
+#define _color7       #875f5f
+#define _color15      #585858
 
 
 ! special
