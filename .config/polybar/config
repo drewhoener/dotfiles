@@ -53,7 +53,7 @@ font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = Wuncon Siji:pixelsize=10;1
 font-3 = FontAwesome:pixelsize=10;1
 
-modules-left = powermenu wlan eth
+modules-left = powermenu eth wlan
 modules-center = bspwm
 modules-right = xkeyboard volume memory cpu date pkg
 

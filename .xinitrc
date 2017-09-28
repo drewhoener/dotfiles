@@ -38,8 +38,9 @@ fi
 
 #Get rid of the pesky x cursor
 xsetroot -cursor_name left_ptr
+xinput set-prop 8 286 1
 
-xinput set-prop 8 291 1
+redshift-gtk &
 
 #Set Background
 bash .fehbg
