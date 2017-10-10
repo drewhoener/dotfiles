@@ -20,4 +20,7 @@ bspc rule -a Screenkey manage=off
 
 compton &
 ~/.config/polybar/launch &
-dunst
+dunst &
+wal -i ~/images/wallpaper/night_lake2.png
+
+bspc config active_border_color "$( xrdb -query | grep '*color0' | awk '{print $NF}')"

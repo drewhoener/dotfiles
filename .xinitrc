@@ -43,6 +43,6 @@ xinput set-prop 8 286 1
 redshift-gtk &
 
 #Set Background
-bash .fehbg
+#bash .fehbg
 
 exec bspwm
