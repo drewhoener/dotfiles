@@ -12,3 +12,4 @@ export PATH=$PATH:$HOME/.bin
 #Add Java Path
 export JAVA_HOME="/usr/lib/jvm/java-8-openjdk"
 export PATH=$JAVA_HOME/bin:$PATH
+export ANDROID_HOME=/opt/android-sdk
