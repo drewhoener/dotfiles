@@ -8,7 +8,10 @@ super + Return
 
 # program launcher
 super + @space
-	rofi -show run
+	rofi -modi drun,run,window,ssh,combi -show drun
+
+super + e
+	thunar
 
 # make sxhkd reload its configuration files:
 super + Escape
