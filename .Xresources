@@ -76,8 +76,7 @@
 URxvt.scrollBar: false
 URxvt.url-launcher: chromium
 
-URxvt.borderColor:   _color4
-URxvt.externalBorder:   0
-URxvt.internalBorder:	0
-
+!URxvt.borderLess: true
 URxvt.font: xft:Liberation Mono:pixelsize=13
+
+rofi.show-icons: true

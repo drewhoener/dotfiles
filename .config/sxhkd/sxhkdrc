@@ -8,11 +8,15 @@ super + Return
 
 # program launcher
 super + @space
-	rofi -show run
+	rofi -modi window,ssh,drun,run,combi,keys -show drun
+
+#File Nagivation
+super + e
+	thunar
 
 # make sxhkd reload its configuration files:
 super + Escape
-	pkill -USR1 -x sxhkd
+	pkill -USR1 -x sxhkd; pkill -USR1 -x polybar
 
 #
 # bspwm hotkeys
@@ -83,6 +87,9 @@ super + {o,i}
 # focus or send to the given desktop
 super + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
+
+super + ctrl + {Left,Right}
+	bspc desktop -f {prev,next}
 
 #
 # preselect

@@ -53,7 +53,7 @@ font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = Wuncon Siji:pixelsize=10;1
 font-3 = FontAwesome:pixelsize=10;1
 
-modules-left = powermenu eth wlan
+modules-left = powermenu eth wlan mpd
 modules-center = bspwm
 modules-right = xkeyboard volume memory cpu date pkg
 
@@ -172,7 +172,13 @@ label-urgent-padding = ${module/bspwm.label-urgent-padding}
 
 [module/mpd]
 type = internal/mpd
-format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
+format-online = || <label-song>  <icon-prev> <toggle> <icon-stop> <icon-next> ||
+format-playing = ${self.format-online}
+format-paused = ${self.format-online}
+format-stopped = ${self.format-online}
+;format-online-padding = 10
+format-margin  = 5 
+;format-online-spacing = 20
 
 icon-prev = 
 icon-stop = 
@@ -182,6 +188,8 @@ icon-next = 
 
 label-song-maxlen = 25
 label-song-ellipsis = true
+
+format-online-underline = ${colors.secondary}
 
 [module/xbacklight]
 type = internal/xbacklight
@@ -316,6 +324,7 @@ bar-volume-fill-font = 2
 bar-volume-empty = ─
 bar-volume-empty-font = 2
 bar-volume-empty-foreground = ${colors.foreground-alt}
+click-right = pavucontrol
 
 [module/battery]
 type = internal/battery
