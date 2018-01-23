@@ -168,3 +168,6 @@ XF86KbdBrightnessUp
 #Lower Keyboard Brightness
 XF86KbdBrightnessDown
 	sudo /usr/bin/lower_brightness
+
+ctrl + @F10
+	bash ~/.bin/screenshot

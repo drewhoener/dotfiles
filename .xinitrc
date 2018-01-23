@@ -42,7 +42,6 @@ xinput set-prop 8 286 1
 
 redshift-gtk &
 udiskie -t &
-
 #Set Background
 #bash .fehbg
 

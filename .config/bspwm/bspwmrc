@@ -21,6 +21,7 @@ bspc rule -a Screenkey manage=off
 compton &
 ~/.config/polybar/launch &
 dunst &
-wal -i ~/images/wallpaper/night_lake2.png
+#wal -i ~/images/wallpaper/night_lake2.png
+cat ~/.cache/wal/sequences &
 
 bspc config focused_border_color $( xrdb -query | grep '*color1[^0-9]' | awk '{print $NF}')

@@ -13,5 +13,6 @@ export PATH=$PATH:$HOME/.bin
 export JAVA_HOME="/usr/lib/jvm/java-8-openjdk"
 export PATH=$JAVA_HOME/bin:$PATH
 
-[ ! -s ~/.config/mpd/pid ] && mpd
 export MAKEFLAGS='-j 8'
+
+[ ! -s ~/.config/mpd/pid ] && mpd ~/.config/mpd/mpd.conf

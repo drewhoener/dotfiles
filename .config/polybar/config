@@ -51,7 +51,7 @@ module-margin-right = 2
 font-0 = fixed:pixelsize=10;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = Wuncon Siji:pixelsize=10;1
-font-3 = FontAwesome:pixelsize=10;1
+font-3 = Font Awesome 5 Free:style=Solid:pixelsize=10;1
 
 modules-left = powermenu eth wlan mpd
 modules-center = bspwm
@@ -102,15 +102,16 @@ label-unmounted-foreground = ${colors.foreground-alt}
 [module/bspwm]
 type = internal/bspwm
 
-label-focused = 
+label-focused = 
+;
 label-focused-background = ${colors.background-alt}
 label-focused-underline= ${colors.secondary}
 label-focused-padding = 2
 
-label-occupied = 
+label-occupied = 
 label-occupied-padding = 2
 
-label-empty = 
+label-empty = •
 label-empty-padding = 2
 
 label-urgent-background = ${colors.alert}
@@ -177,7 +178,7 @@ format-playing = ${self.format-online}
 format-paused = ${self.format-online}
 format-stopped = ${self.format-online}
 ;format-online-padding = 10
-format-margin  = 5 
+format-margin  = 5
 ;format-online-spacing = 20
 
 icon-prev = 
