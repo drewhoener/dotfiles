@@ -12,16 +12,18 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 bspc config focus_follows_pointer true
 
-bspc rule -a Gimp desktop='^8' state=floating follow=on
+#bspc rule -a Gimp desktop='^8' state=floating follow=on
 #bspc rule -a Chromium desktop='^2'
-bspc rule -a mplayer2 state=floating
-bspc rule -a Kupfer.py focus=on
-bspc rule -a Screenkey manage=off
+#bspc rule -a mplayer2 state=floating
+#bspc rule -a Kupfer.py focus=on
+#bspc rule -a Screenkey manage=off
 
 compton &
 ~/.config/polybar/launch &
 dunst &
 #wal -i ~/images/wallpaper/night_lake2.png
-cat ~/.cache/wal/sequences &
+wal -R
 
-bspc config focused_border_color $( xrdb -query | grep '*color1[^0-9]' | awk '{print $NF}')
+bspc config focused_border_color $( xrdb -query | grep '*color5[^0-9]' | awk '{print $NF}')
+
+#bash ./rules.sh

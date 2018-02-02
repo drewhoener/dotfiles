@@ -80,3 +80,15 @@ URxvt.url-launcher: chromium
 URxvt.font: xft:Liberation Mono:pixelsize=13
 
 rofi.show-icons: true
+rofi.background: _background
+rofi.foreground: _foreground
+rofi.hlbg: #41535B
+rofi.hlfg: #ffffff
+rofi.bc: #151718
+rofi.eh: 2
+rofi.width: 100
+rofi.padding: 480
+rofi.lines: 5
+rofi.line-margin: 5
+rofi.font: System San Francisco Display 18
+rofi.opacity: 80

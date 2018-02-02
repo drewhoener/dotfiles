@@ -290,7 +290,7 @@ format-underline = ${colors.secondary}
 label = %date% %time%
 
 [module/volume]
-type = internal/volume
+type = internal/pulseaudio
 
 ; Soundcard to be used
 master-soundcard = default
