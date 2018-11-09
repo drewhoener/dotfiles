@@ -171,3 +171,6 @@ XF86KbdBrightnessDown
 
 ctrl + @F10
 	bash ~/.bin/screenshot
+
+ctrl + @F11
+	bash ~/.bin/screenshot-window

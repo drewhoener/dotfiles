@@ -33,12 +33,15 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
+
+xrandr --output DP-2 --primary --auto --output HDMI-0 --left-of DP-2 --auto
+
 #libinput-gestures-setup start
 #libinput-gestures-setup autostart
 
 #Get rid of the pesky x cursor
 xsetroot -cursor_name left_ptr
-xinput set-prop 8 286 1
+xinput set-prop 8 284 1
 
 redshift-gtk &
 udiskie -t &

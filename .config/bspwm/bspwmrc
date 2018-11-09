@@ -2,7 +2,8 @@
 
 sxhkd & urxvt &
 
-bspc monitor -d I II III IV V VI VII VIII IX X
+bspc monitor DP-2 -d I II III IV V
+bspc monitor HDMI-0 -d I II III IV V
 
 bspc config border_width         2
 bspc config window_gap          12
@@ -19,7 +20,7 @@ bspc config focus_follows_pointer true
 #bspc rule -a Screenkey manage=off
 
 compton &
-~/.config/polybar/launch &
+~/.config/polybar/launch
 dunst &
 #wal -i ~/images/wallpaper/night_lake2.png
 wal -R

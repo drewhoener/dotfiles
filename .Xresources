@@ -1,77 +1,3 @@
-#define _foreground       #ffffff
-#define _background       #262626
-#define _cursorColor      #ffffff
-
-!black
-#define _color0       #585858
-#define _color8       #ffd7d7
-
-! red
-#define _color1       #5f8787
-#define _color9       #444444
-
-! green
-#define _color2       #5fafaf
-#define _color10      #d7af87
-
-! yellow
-#define _color3       #ff875f
-#define _color11      #ffd7af
-
-! blue
-#define _color4       #005f5f
-#define _color12      #87afaf
-
-! magenta
-#define _color5       #af8787
-#define _color13      #565656
-
-! cyan
-#define _color6       #afafaf
-#define _color14      #005f5f
-
-! white
-#define _color7       #875f5f
-#define _color15      #585858
-
-
-! special
-*.foreground:   _foreground
-*.background:   _background
-*.cursorColor:  _cursorColor
-
-! black
-*.color0:       _color0
-*.color8:       _color8
-
-! red
-*.color1:       _color1
-*.color9:       _color9
-
-! green
-*.color2:       _color2
-*.color10:      _color10
-
-! yellow
-*.color3:       _color3
-*.color11:      _color11
-
-! blue
-*.color4:       _color4
-*.color12:      _color12
-
-! magenta
-*.color5:       _color5
-*.color13:      _color13
-
-! cyan
-*.color6:       _color6
-*.color14:      _color14
-
-! white
-*.color7:       _color7
-*.color15:      _color15
-
 !URxvt Settings
 URxvt.scrollBar: false
 URxvt.url-launcher: chromium
@@ -80,15 +6,18 @@ URxvt.url-launcher: chromium
 URxvt.font: xft:Liberation Mono:pixelsize=13
 
 rofi.show-icons: true
-rofi.background: _background
-rofi.foreground: _foreground
-rofi.hlbg: #41535B
-rofi.hlfg: #ffffff
-rofi.bc: #151718
+rofi.color-window: #AA181e15, #AA181e15, #BB9E5453
+rofi.color-normal: #00181e15, #9E5453, #00181e15, #AA5C853B, #CC6C68
+rofi.color-urgent: #00181e15, #9E5453, #00181e15, #AA5C853B, #CC6C68
+rofi.color-active: #00181e15, #9E5453, #00181e15, #AA5C853B, #CC6C68
+rofi.separator-style: none
+rofi.hide-scrollbar: true
 rofi.eh: 2
 rofi.width: 100
-rofi.padding: 480
-rofi.lines: 5
-rofi.line-margin: 5
+rofi.padding: 350
+rofi.lines: 7
+rofi.line-margin: 3
+rofi.line-padding: 5
 rofi.font: System San Francisco Display 18
-rofi.opacity: 80
+rofi.display-run: >
+rofi.display-drun: >
