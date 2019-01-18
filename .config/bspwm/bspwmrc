@@ -1,6 +1,7 @@
 #! /bin/sh
 
-sxhkd & urxvt &
+sxhkd & 
+urxvtd &
 
 bspc monitor DP-2 -d I II III IV V
 bspc monitor HDMI-0 -d I II III IV V
