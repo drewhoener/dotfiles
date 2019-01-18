@@ -1,0 +1,947 @@
+{
+  "focusedMonitorId": 4194306,
+  "clientsCount": 11,
+  "monitors": [
+    {
+      "name": "HDMI-0",
+      "id": 4194306,
+      "randrId": 447,
+      "wired": true,
+      "stickyCount": 0,
+      "windowGap": 12,
+      "borderWidth": 2,
+      "focusedDesktopId": 4194316,
+      "padding": {
+        "top": 35,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "desktops": [
+        {
+          "name": "I",
+          "id": 4194308,
+          "layout": "tiled",
+          "windowGap": 12,
+          "borderWidth": 2,
+          "focusedNodeId": 8388617,
+          "padding": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "root": {
+            "id": 4194321,
+            "splitType": "vertical",
+            "splitRatio": 0.5,
+            "birthRotation": 0,
+            "vacant": false,
+            "hidden": false,
+            "sticky": false,
+            "private": false,
+            "locked": false,
+            "presel": null,
+            "rectangle": {
+              "x": 12,
+              "y": 47,
+              "width": 1908,
+              "height": 1033
+            },
+            "constraints": {
+              "min_width": 64,
+              "min_height": 32
+            },
+            "firstChild": {
+              "id": 25165833,
+              "splitType": "vertical",
+              "splitRatio": 0.5,
+              "birthRotation": 0,
+              "vacant": false,
+              "hidden": false,
+              "sticky": false,
+              "private": false,
+              "locked": false,
+              "presel": null,
+              "rectangle": {
+                "x": 12,
+                "y": 47,
+                "width": 954,
+                "height": 1033
+              },
+              "constraints": {
+                "min_width": 32,
+                "min_height": 32
+              },
+              "firstChild": null,
+              "secondChild": null,
+              "client": {
+                "className": "URxvt",
+                "instanceName": "urxvt",
+                "borderWidth": 2,
+                "state": "pseudo_tiled",
+                "lastState": "tiled",
+                "layer": "normal",
+                "lastLayer": "normal",
+                "urgent": false,
+                "shown": false,
+                "tiledRectangle": {
+                  "x": 159,
+                  "y": 373,
+                  "width": 644,
+                  "height": 364
+                },
+                "floatingRectangle": {
+                  "x": 636,
+                  "y": 356,
+                  "width": 644,
+                  "height": 364
+                }
+              }
+            },
+            "secondChild": {
+              "id": 8388617,
+              "splitType": "vertical",
+              "splitRatio": 0.5,
+              "birthRotation": 0,
+              "vacant": false,
+              "hidden": false,
+              "sticky": false,
+              "private": false,
+              "locked": false,
+              "presel": null,
+              "rectangle": {
+                "x": 966,
+                "y": 47,
+                "width": 954,
+                "height": 1033
+              },
+              "constraints": {
+                "min_width": 32,
+                "min_height": 32
+              },
+              "firstChild": null,
+              "secondChild": null,
+              "client": {
+                "className": "URxvt",
+                "instanceName": "urxvt",
+                "borderWidth": 2,
+                "state": "tiled",
+                "lastState": "tiled",
+                "layer": "normal",
+                "lastLayer": "normal",
+                "urgent": false,
+                "shown": false,
+                "tiledRectangle": {
+                  "x": 966,
+                  "y": 47,
+                  "width": 938,
+                  "height": 1017
+                },
+                "floatingRectangle": {
+                  "x": 636,
+                  "y": 356,
+                  "width": 644,
+                  "height": 364
+                }
+              }
+            },
+            "client": null
+          }
+        },
+        {
+          "name": "II",
+          "id": 4194309,
+          "layout": "tiled",
+          "windowGap": 12,
+          "borderWidth": 2,
+          "focusedNodeId": 29360129,
+          "padding": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "root": {
+            "id": 29360129,
+            "splitType": "vertical",
+            "splitRatio": 0.5,
+            "birthRotation": 0,
+            "vacant": false,
+            "hidden": false,
+            "sticky": false,
+            "private": false,
+            "locked": false,
+            "presel": null,
+            "rectangle": {
+              "x": 12,
+              "y": 47,
+              "width": 1908,
+              "height": 1033
+            },
+            "constraints": {
+              "min_width": 32,
+              "min_height": 32
+            },
+            "firstChild": null,
+            "secondChild": null,
+            "client": {
+              "className": "Chromium",
+              "instanceName": "chromium",
+              "borderWidth": 2,
+              "state": "tiled",
+              "lastState": "tiled",
+              "layer": "normal",
+              "lastLayer": "normal",
+              "urgent": false,
+              "shown": false,
+              "tiledRectangle": {
+                "x": 12,
+                "y": 47,
+                "width": 1892,
+                "height": 1017
+              },
+              "floatingRectangle": {
+                "x": 968,
+                "y": 49,
+                "width": 938,
+                "height": 1017
+              }
+            }
+          }
+        },
+        {
+          "name": "III",
+          "id": 4194310,
+          "layout": "tiled",
+          "windowGap": 12,
+          "borderWidth": 2,
+          "focusedNodeId": 58720319,
+          "padding": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "root": {
+            "id": 4194324,
+            "splitType": "vertical",
+            "splitRatio": 0.5,
+            "birthRotation": 0,
+            "vacant": false,
+            "hidden": false,
+            "sticky": false,
+            "private": false,
+            "locked": false,
+            "presel": null,
+            "rectangle": {
+              "x": 12,
+              "y": 47,
+              "width": 1908,
+              "height": 1033
+            },
+            "constraints": {
+              "min_width": 64,
+              "min_height": 32
+            },
+            "firstChild": {
+              "id": 58720319,
+              "splitType": "vertical",
+              "splitRatio": 0.5,
+              "birthRotation": 90,
+              "vacant": false,
+              "hidden": false,
+              "sticky": false,
+              "private": false,
+              "locked": false,
+              "presel": null,
+              "rectangle": {
+                "x": 12,
+                "y": 47,
+                "width": 954,
+                "height": 1033
+              },
+              "constraints": {
+                "min_width": 32,
+                "min_height": 32
+              },
+              "firstChild": null,
+              "secondChild": null,
+              "client": {
+                "className": "discord",
+                "instanceName": "discord",
+                "borderWidth": 2,
+                "state": "tiled",
+                "lastState": "tiled",
+                "layer": "normal",
+                "lastLayer": "normal",
+                "urgent": false,
+                "shown": false,
+                "tiledRectangle": {
+                  "x": 12,
+                  "y": 47,
+                  "width": 938,
+                  "height": 1017
+                },
+                "floatingRectangle": {
+                  "x": 14,
+                  "y": 49,
+                  "width": 1219,
+                  "height": 1017
+                }
+              }
+            },
+            "secondChild": {
+              "id": 69206017,
+              "splitType": "vertical",
+              "splitRatio": 0.5,
+              "birthRotation": 0,
+              "vacant": false,
+              "hidden": false,
+              "sticky": false,
+              "private": false,
+              "locked": false,
+              "presel": null,
+              "rectangle": {
+                "x": 966,
+                "y": 47,
+                "width": 954,
+                "height": 1033
+              },
+              "constraints": {
+                "min_width": 32,
+                "min_height": 32
+              },
+              "firstChild": null,
+              "secondChild": null,
+              "client": {
+                "className": "Messenger for Desktop",
+                "instanceName": "messenger for desktop",
+                "borderWidth": 2,
+                "state": "tiled",
+                "lastState": "tiled",
+                "layer": "normal",
+                "lastLayer": "normal",
+                "urgent": false,
+                "shown": false,
+                "tiledRectangle": {
+                  "x": 966,
+                  "y": 47,
+                  "width": 938,
+                  "height": 1017
+                },
+                "floatingRectangle": {
+                  "x": 1162,
+                  "y": 74,
+                  "width": 744,
+                  "height": 1017
+                }
+              }
+            },
+            "client": null
+          }
+        },
+        {
+          "name": "IV",
+          "id": 4194311,
+          "layout": "tiled",
+          "windowGap": 12,
+          "borderWidth": 2,
+          "focusedNodeId": 83886145,
+          "padding": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "root": {
+            "id": 83886145,
+            "splitType": "vertical",
+            "splitRatio": 0.5,
+            "birthRotation": 0,
+            "vacant": false,
+            "hidden": false,
+            "sticky": false,
+            "private": false,
+            "locked": false,
+            "presel": null,
+            "rectangle": {
+              "x": 12,
+              "y": 47,
+              "width": 1908,
+              "height": 1033
+            },
+            "constraints": {
+              "min_width": 32,
+              "min_height": 32
+            },
+            "firstChild": null,
+            "secondChild": null,
+            "client": {
+              "className": "jetbrains-idea",
+              "instanceName": "sun-awt-X11-XFramePeer",
+              "borderWidth": 2,
+              "state": "tiled",
+              "lastState": "tiled",
+              "layer": "normal",
+              "lastLayer": "normal",
+              "urgent": false,
+              "shown": false,
+              "tiledRectangle": {
+                "x": 12,
+                "y": 47,
+                "width": 1892,
+                "height": 1017
+              },
+              "floatingRectangle": {
+                "x": 12,
+                "y": 47,
+                "width": 1882,
+                "height": 987
+              }
+            }
+          }
+        },
+        {
+          "name": "V",
+          "id": 4194312,
+          "layout": "tiled",
+          "windowGap": 12,
+          "borderWidth": 2,
+          "focusedNodeId": 39845913,
+          "padding": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "root": {
+            "id": 39845913,
+            "splitType": "vertical",
+            "splitRatio": 0.5,
+            "birthRotation": 0,
+            "vacant": false,
+            "hidden": false,
+            "sticky": false,
+            "private": false,
+            "locked": false,
+            "presel": null,
+            "rectangle": {
+              "x": 12,
+              "y": 47,
+              "width": 1908,
+              "height": 1033
+            },
+            "constraints": {
+              "min_width": 32,
+              "min_height": 32
+            },
+            "firstChild": null,
+            "secondChild": null,
+            "client": {
+              "className": "Steam",
+              "instanceName": "Steam",
+              "borderWidth": 2,
+              "state": "tiled",
+              "lastState": "tiled",
+              "layer": "normal",
+              "lastLayer": "normal",
+              "urgent": false,
+              "shown": false,
+              "tiledRectangle": {
+                "x": 12,
+                "y": 47,
+                "width": 1892,
+                "height": 1017
+              },
+              "floatingRectangle": {
+                "x": 14,
+                "y": 49,
+                "width": 1892,
+                "height": 1017
+              }
+            }
+          }
+        },
+        {
+          "name": "VI",
+          "id": 4194313,
+          "layout": "tiled",
+          "windowGap": 12,
+          "borderWidth": 2,
+          "focusedNodeId": 0,
+          "padding": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "root": null
+        },
+        {
+          "name": "VII",
+          "id": 4194314,
+          "layout": "tiled",
+          "windowGap": 12,
+          "borderWidth": 2,
+          "focusedNodeId": 0,
+          "padding": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "root": null
+        },
+        {
+          "name": "VIII",
+          "id": 4194315,
+          "layout": "tiled",
+          "windowGap": 12,
+          "borderWidth": 2,
+          "focusedNodeId": 0,
+          "padding": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "root": null
+        },
+        {
+          "name": "IX",
+          "id": 4194316,
+          "layout": "tiled",
+          "windowGap": 12,
+          "borderWidth": 2,
+          "focusedNodeId": 94371849,
+          "padding": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "root": {
+            "id": 4194329,
+            "splitType": "vertical",
+            "splitRatio": 0.5,
+            "birthRotation": 0,
+            "vacant": false,
+            "hidden": false,
+            "sticky": false,
+            "private": false,
+            "locked": false,
+            "presel": null,
+            "rectangle": {
+              "x": 12,
+              "y": 47,
+              "width": 1908,
+              "height": 1033
+            },
+            "constraints": {
+              "min_width": 64,
+              "min_height": 32
+            },
+            "firstChild": {
+              "id": 90177545,
+              "splitType": "vertical",
+              "splitRatio": 0.5,
+              "birthRotation": 0,
+              "vacant": false,
+              "hidden": false,
+              "sticky": false,
+              "private": false,
+              "locked": false,
+              "presel": null,
+              "rectangle": {
+                "x": 12,
+                "y": 47,
+                "width": 954,
+                "height": 1033
+              },
+              "constraints": {
+                "min_width": 32,
+                "min_height": 32
+              },
+              "firstChild": null,
+              "secondChild": null,
+              "client": {
+                "className": "URxvt",
+                "instanceName": "urxvt",
+                "borderWidth": 2,
+                "state": "tiled",
+                "lastState": "tiled",
+                "layer": "normal",
+                "lastLayer": "normal",
+                "urgent": false,
+                "shown": true,
+                "tiledRectangle": {
+                  "x": 12,
+                  "y": 47,
+                  "width": 938,
+                  "height": 1017
+                },
+                "floatingRectangle": {
+                  "x": 636,
+                  "y": 356,
+                  "width": 644,
+                  "height": 364
+                }
+              }
+            },
+            "secondChild": {
+              "id": 94371849,
+              "splitType": "vertical",
+              "splitRatio": 0.5,
+              "birthRotation": 270,
+              "vacant": false,
+              "hidden": false,
+              "sticky": false,
+              "private": false,
+              "locked": false,
+              "presel": null,
+              "rectangle": {
+                "x": 966,
+                "y": 47,
+                "width": 954,
+                "height": 1033
+              },
+              "constraints": {
+                "min_width": 32,
+                "min_height": 32
+              },
+              "firstChild": null,
+              "secondChild": null,
+              "client": {
+                "className": "URxvt",
+                "instanceName": "urxvt",
+                "borderWidth": 2,
+                "state": "tiled",
+                "lastState": "tiled",
+                "layer": "normal",
+                "lastLayer": "normal",
+                "urgent": false,
+                "shown": true,
+                "tiledRectangle": {
+                  "x": 966,
+                  "y": 47,
+                  "width": 938,
+                  "height": 1017
+                },
+                "floatingRectangle": {
+                  "x": 636,
+                  "y": 356,
+                  "width": 644,
+                  "height": 364
+                }
+              }
+            },
+            "client": null
+          }
+        },
+        {
+          "name": "X",
+          "id": 4194317,
+          "layout": "tiled",
+          "windowGap": 12,
+          "borderWidth": 2,
+          "focusedNodeId": 96469001,
+          "padding": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "root": {
+            "id": 4194330,
+            "splitType": "vertical",
+            "splitRatio": 0.5,
+            "birthRotation": 0,
+            "vacant": false,
+            "hidden": false,
+            "sticky": false,
+            "private": false,
+            "locked": false,
+            "presel": null,
+            "rectangle": {
+              "x": 12,
+              "y": 47,
+              "width": 1908,
+              "height": 1033
+            },
+            "constraints": {
+              "min_width": 64,
+              "min_height": 32
+            },
+            "firstChild": {
+              "id": 96469001,
+              "splitType": "vertical",
+              "splitRatio": 0.5,
+              "birthRotation": 0,
+              "vacant": false,
+              "hidden": false,
+              "sticky": false,
+              "private": false,
+              "locked": false,
+              "presel": null,
+              "rectangle": {
+                "x": 12,
+                "y": 47,
+                "width": 954,
+                "height": 1033
+              },
+              "constraints": {
+                "min_width": 32,
+                "min_height": 32
+              },
+              "firstChild": null,
+              "secondChild": null,
+              "client": {
+                "className": "URxvt",
+                "instanceName": "urxvt",
+                "borderWidth": 2,
+                "state": "tiled",
+                "lastState": "tiled",
+                "layer": "normal",
+                "lastLayer": "normal",
+                "urgent": false,
+                "shown": false,
+                "tiledRectangle": {
+                  "x": 12,
+                  "y": 47,
+                  "width": 938,
+                  "height": 1017
+                },
+                "floatingRectangle": {
+                  "x": 636,
+                  "y": 356,
+                  "width": 644,
+                  "height": 364
+                }
+              }
+            },
+            "secondChild": {
+              "id": 92274691,
+              "splitType": "vertical",
+              "splitRatio": 0.5,
+              "birthRotation": 0,
+              "vacant": false,
+              "hidden": false,
+              "sticky": false,
+              "private": false,
+              "locked": false,
+              "presel": null,
+              "rectangle": {
+                "x": 966,
+                "y": 47,
+                "width": 954,
+                "height": 1033
+              },
+              "constraints": {
+                "min_width": 32,
+                "min_height": 32
+              },
+              "firstChild": null,
+              "secondChild": null,
+              "client": {
+                "className": "Pavucontrol",
+                "instanceName": "pavucontrol",
+                "borderWidth": 2,
+                "state": "tiled",
+                "lastState": "tiled",
+                "layer": "normal",
+                "lastLayer": "normal",
+                "urgent": false,
+                "shown": false,
+                "tiledRectangle": {
+                  "x": 966,
+                  "y": 47,
+                  "width": 938,
+                  "height": 1017
+                },
+                "floatingRectangle": {
+                  "x": 489,
+                  "y": 29,
+                  "width": 938,
+                  "height": 1017
+                }
+              }
+            },
+            "client": null
+          }
+        }
+      ]
+    }
+  ],
+  "focusHistory": [
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194309,
+      "nodeId": 29360129
+    },
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194308,
+      "nodeId": 0
+    },
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194308,
+      "nodeId": 8388617
+    },
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194308,
+      "nodeId": 25165833
+    },
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194308,
+      "nodeId": 8388617
+    },
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194309,
+      "nodeId": 29360129
+    },
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194310,
+      "nodeId": 0
+    },
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194310,
+      "nodeId": 58720319
+    },
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194310,
+      "nodeId": 69206017
+    },
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194310,
+      "nodeId": 58720319
+    },
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194310,
+      "nodeId": 69206017
+    },
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194310,
+      "nodeId": 58720319
+    },
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194311,
+      "nodeId": 0
+    },
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194311,
+      "nodeId": 83886145
+    },
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194313,
+      "nodeId": 0
+    },
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194314,
+      "nodeId": 0
+    },
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194315,
+      "nodeId": 0
+    },
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194316,
+      "nodeId": 0
+    },
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194316,
+      "nodeId": 90177545
+    },
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194317,
+      "nodeId": 0
+    },
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194317,
+      "nodeId": 92274691
+    },
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194316,
+      "nodeId": 94371849
+    },
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194317,
+      "nodeId": 96469001
+    },
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194316,
+      "nodeId": 94371849
+    },
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194316,
+      "nodeId": 90177545
+    },
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194316,
+      "nodeId": 94371849
+    },
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194316,
+      "nodeId": 90177545
+    },
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194316,
+      "nodeId": 94371849
+    },
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194316,
+      "nodeId": 90177545
+    },
+    {
+      "monitorId": 4194306,
+      "desktopId": 4194316,
+      "nodeId": 94371849
+    }
+  ],
+  "stackingList": [
+    39845913,
+    25165833,
+    8388617,
+    29360129,
+    69206017,
+    58720319,
+    83886145,
+    92274691,
+    96469001,
+    90177545,
+    94371849
+  ]
+}
